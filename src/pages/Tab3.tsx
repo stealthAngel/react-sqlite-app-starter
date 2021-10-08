@@ -20,6 +20,7 @@ const Tab3: React.FC = () => {
         setTests(res.values);
         console.log(`query ${res}`);
         await db.close();
+        await sqlite.closeConnection("db_issue9");
         return true;
       }
       catch (err) {
