@@ -21,7 +21,6 @@
     "@testing-library/user-event": "latest",
     "@types/jest": "latest",
     "@types/node": "latest",
-    "@types/react": "latest",
     "@types/react-dom": "latest",
     "@types/react-router": "latest",
     "@types/react-router-dom": "latest",
@@ -60,6 +59,7 @@
   "devDependencies": {
     "@capacitor-community/sqlite": "^3.2.3-1",
     "@capacitor/cli": "^3.2.3",
+    "@types/react": "^17.0.27",
     "@types/react-modal": "^3.12.0",
     "jeep-sqlite": "^1.3.0",
     "react-sqlite-hook": "^2.1.0"
